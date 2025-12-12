@@ -1,5 +1,4 @@
 import java.util.*;
-import tabular.*;
 
 public class GPTree implements Collector, Comparable<GPTree>, Cloneable {
     private Node root;
@@ -160,5 +159,6 @@ public class GPTree implements Collector, Comparable<GPTree>, Cloneable {
     public double eval(double[] data) {
         return root.eval(data);
     }
+
 
 }
